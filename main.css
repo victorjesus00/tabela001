@@ -1,0 +1,90 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+h1{
+    background-color: rgba(128, 128, 128, 0.181);
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.227), white);
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px;
+    display: inline-block;
+    
+}
+
+
+table{
+    width:400px;
+    height: 400px;
+    border-collapse: collapse;
+    position: relative;
+   
+
+
+                }
+
+td, th{border: 1px solid black;
+padding: 8px;
+text-align: center;
+vertical-align: middle;                   
+}
+
+    caption{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 10px;
+        background-color:cadetblue ;
+        border: 1px solid black;
+    }
+
+
+
+    tr{
+        background-color: rgba(135, 207, 235, 0.671);
+    }
+
+
+.tabela2{
+    
+    width: 400px;
+    height: 100px;
+
+}
+
+thead{
+    background-color: rgba(0, 0, 68, 0.767);
+    color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: rgb(0, 0, 108) ;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgba(236, 255, 63, 0.211);
+}
+
+tfoot{
+    background-color: rgb(0, 0, 255);
+}
+
+footer{
+    background-color: rgb(48, 69, 96);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(249, 249, 249, 0.752);
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 3px;
+    border: 3px solid rgba(171, 161, 161, 0.349);
+}
